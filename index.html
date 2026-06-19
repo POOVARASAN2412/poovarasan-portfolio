@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Engineering Journey of Poovarasan K — an interactive storytelling portfolio.">
+    <title>Poovarasan K | My Engineering Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Journey Progress Line -->
+    <div class="journey-progress-line">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Chapter Navigation Dots -->
+    <nav class="chapter-nav" id="chapterNav">
+        <a href="#chapter-1" class="chapter-dot active" data-label="The Beginning"><span></span></a>
+        <a href="#chapter-2" class="chapter-dot" data-label="Education"><span></span></a>
+        <a href="#chapter-3" class="chapter-dot" data-label="Mission"><span></span></a>
+        <a href="#chapter-4" class="chapter-dot" data-label="Skills"><span></span></a>
+        <a href="#chapter-5" class="chapter-dot" data-label="Projects"><span></span></a>
+        <a href="#chapter-6" class="chapter-dot" data-label="Experience"><span></span></a>
+        <a href="#chapter-7" class="chapter-dot" data-label="Achievements"><span></span></a>
+        <a href="#chapter-8" class="chapter-dot" data-label="Coding Universe"><span></span></a>
+        <a href="#chapter-9" class="chapter-dot" data-label="Future"><span></span></a>
+        <a href="#chapter-10" class="chapter-dot" data-label="Connect"><span></span></a>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 1: THE BEGINNING                    -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-1" class="chapter chapter-hero">
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <p class="hero-prelude reveal-up">CHAPTER I</p>
+            <h1 class="hero-greeting reveal-up" style="transition-delay:0.15s">
+                HELLO, I'M
+            </h1>
+            <h2 class="hero-name reveal-up" style="transition-delay:0.3s">
+                POOVARASAN <span class="accent">K</span>
+            </h2>
+            <p class="hero-subtitle reveal-up" style="transition-delay:0.45s">
+                A Future Software Engineer
+            </p>
+            <div class="hero-line reveal-up" style="transition-delay:0.6s"></div>
+        </div>
+        <div class="scroll-indicator" id="scrollIndicator">
+            <span>Begin the Journey</span>
+            <div class="scroll-arrow">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 2: EDUCATION JOURNEY                -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-2" class="chapter chapter-education">
+        <div class="chapter-label reveal-up">CHAPTER II</div>
+        <h2 class="chapter-title reveal-up">My Education Journey</h2>
+
+        <div class="edu-timeline">
+            <div class="timeline-trunk"></div>
+
+            <div class="edu-milestone reveal-left" data-year="2020">
+                <div class="milestone-node"></div>
+                <div class="milestone-card">
+                    <span class="milestone-badge">Higher Secondary</span>
+                    <h3>12th Standard</h3>
+                    <p>Completed higher secondary education, developing interest in computer science and engineering.</p>
+                </div>
+            </div>
+
+            <div class="edu-milestone reveal-right" data-year="2021">
+                <div class="milestone-node"></div>
+                <div class="milestone-card">
+                    <span class="milestone-badge">College Admission</span>
+                    <h3>Dr. N.G.P Institute of Technology</h3>
+                    <p>Joined B.E. Computer Science and Engineering — beginning a transformative journey in technology.</p>
+                </div>
+            </div>
+
+            <div class="edu-milestone reveal-left" data-year="2025">
+                <div class="milestone-node"></div>
+                <div class="milestone-card">
+                    <span class="milestone-badge">Graduating</span>
+                    <h3>B.E. Computer Science & Engineering</h3>
+                    <p class="cgpa-highlight">CGPA: <strong>7.8</strong></p>
+                    <p>Equipped with strong programming fundamentals, database management, and software engineering skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 3: MY MISSION                       -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-3" class="chapter chapter-mission">
+        <div class="chapter-label reveal-up">CHAPTER III</div>
+        <h2 class="chapter-title reveal-up">My Mission</h2>
+
+        <div class="mission-container reveal-up">
+            <div class="mission-glow"></div>
+            <div class="mission-icon">
+                <i class="fa-solid fa-crosshairs"></i>
+            </div>
+            <blockquote class="mission-text">
+                I am a passionate Computer Science Engineering student who enjoys solving problems, learning new technologies, and building software solutions. My goal is to contribute to innovative projects, continuously improve my technical skills, and build a successful career in software development.
+            </blockquote>
+            <div class="mission-signature">— Poovarasan K</div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 4: SKILLS ARSENAL                   -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-4" class="chapter chapter-skills">
+        <div class="chapter-label reveal-up">CHAPTER IV</div>
+        <h2 class="chapter-title reveal-up">My Skills Arsenal</h2>
+        <p class="chapter-subtitle reveal-up">Collectible power cards unlocked throughout my journey</p>
+
+        <div class="skills-grid">
+            <!-- Programming Languages -->
+            <div class="skill-card reveal-up" data-rarity="legendary" style="transition-delay:0.05s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">LEGENDARY</div>
+                <div class="card-icon"><i class="fa-brands fa-java"></i></div>
+                <h3 class="card-name">Java</h3>
+                <p class="card-category">Programming Language</p>
+                <div class="card-power"><span class="power-bar" style="--power:90%"></span></div>
+            </div>
+
+            <div class="skill-card reveal-up" data-rarity="epic" style="transition-delay:0.1s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">EPIC</div>
+                <div class="card-icon"><i class="fa-brands fa-python"></i></div>
+                <h3 class="card-name">Python</h3>
+                <p class="card-category">Programming Language</p>
+                <div class="card-power"><span class="power-bar" style="--power:85%"></span></div>
+            </div>
+
+            <div class="skill-card reveal-up" data-rarity="rare" style="transition-delay:0.15s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">RARE</div>
+                <div class="card-icon"><i class="fa-solid fa-c"></i></div>
+                <h3 class="card-name">C</h3>
+                <p class="card-category">Programming Language</p>
+                <div class="card-power"><span class="power-bar" style="--power:80%"></span></div>
+            </div>
+
+            <!-- Database -->
+            <div class="skill-card reveal-up" data-rarity="epic" style="transition-delay:0.2s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">EPIC</div>
+                <div class="card-icon"><i class="fa-solid fa-database"></i></div>
+                <h3 class="card-name">SQL</h3>
+                <p class="card-category">Database</p>
+                <div class="card-power"><span class="power-bar" style="--power:82%"></span></div>
+            </div>
+
+            <div class="skill-card reveal-up" data-rarity="rare" style="transition-delay:0.25s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">RARE</div>
+                <div class="card-icon"><i class="fa-solid fa-server"></i></div>
+                <h3 class="card-name">DBMS</h3>
+                <p class="card-category">Database</p>
+                <div class="card-power"><span class="power-bar" style="--power:78%"></span></div>
+            </div>
+
+            <!-- Core Subjects -->
+            <div class="skill-card reveal-up" data-rarity="legendary" style="transition-delay:0.3s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">LEGENDARY</div>
+                <div class="card-icon"><i class="fa-solid fa-sitemap"></i></div>
+                <h3 class="card-name">Data Structures</h3>
+                <p class="card-category">Core Subject</p>
+                <div class="card-power"><span class="power-bar" style="--power:88%"></span></div>
+            </div>
+
+            <div class="skill-card reveal-up" data-rarity="epic" style="transition-delay:0.35s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">EPIC</div>
+                <div class="card-icon"><i class="fa-solid fa-cubes"></i></div>
+                <h3 class="card-name">OOP</h3>
+                <p class="card-category">Core Subject</p>
+                <div class="card-power"><span class="power-bar" style="--power:86%"></span></div>
+            </div>
+
+            <!-- Web Technologies -->
+            <div class="skill-card reveal-up" data-rarity="rare" style="transition-delay:0.4s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">RARE</div>
+                <div class="card-icon"><i class="fa-brands fa-html5"></i></div>
+                <h3 class="card-name">HTML</h3>
+                <p class="card-category">Web Technology</p>
+                <div class="card-power"><span class="power-bar" style="--power:92%"></span></div>
+            </div>
+
+            <div class="skill-card reveal-up" data-rarity="rare" style="transition-delay:0.45s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">RARE</div>
+                <div class="card-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                <h3 class="card-name">CSS</h3>
+                <p class="card-category">Web Technology</p>
+                <div class="card-power"><span class="power-bar" style="--power:88%"></span></div>
+            </div>
+
+            <div class="skill-card reveal-up" data-rarity="epic" style="transition-delay:0.5s">
+                <div class="card-shine"></div>
+                <div class="card-rarity">EPIC</div>
+                <div class="card-icon"><i class="fa-brands fa-js"></i></div>
+                <h3 class="card-name">JavaScript</h3>
+                <p class="card-category">Web Technology</p>
+                <div class="card-power"><span class="power-bar" style="--power:84%"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 5: PROJECTS I'VE BUILT              -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-5" class="chapter chapter-projects">
+        <div class="chapter-label reveal-up">CHAPTER V</div>
+        <h2 class="chapter-title reveal-up">Projects I've Built</h2>
+        <p class="chapter-subtitle reveal-up">Islands of innovation connected by the path of learning</p>
+
+        <div class="project-islands">
+            <svg class="island-connector" viewBox="0 0 800 100" preserveAspectRatio="none">
+                <path d="M0,50 C200,10 300,90 400,50 C500,10 600,90 800,50" stroke="url(#connectorGrad)" stroke-width="2" fill="none" stroke-dasharray="8 4"/>
+                <defs>
+                    <linearGradient id="connectorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#8b5cf6"/>
+                        <stop offset="100%" stop-color="#06b6d4"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+
+            <div class="island reveal-up" style="transition-delay:0.1s">
+                <div class="island-float">
+                    <div class="island-glow"></div>
+                    <div class="island-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3>Cotton Disease Prediction System</h3>
+                    <p>Machine learning-based solution for identifying diseases in cotton crops, helping farmers protect their yield.</p>
+                    <div class="island-tags">
+                        <span>Machine Learning</span>
+                        <span>Python</span>
+                        <span>CNN</span>
+                    </div>
+                    <div class="island-highlights">
+                        <div class="highlight"><i class="fa-solid fa-brain"></i> ML Classification</div>
+                        <div class="highlight"><i class="fa-solid fa-image"></i> Image Processing</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="island reveal-up" style="transition-delay:0.25s">
+                <div class="island-float">
+                    <div class="island-glow"></div>
+                    <div class="island-icon">
+                        <i class="fa-solid fa-recycle"></i>
+                    </div>
+                    <h3>Smart Waste Recycling</h3>
+                    <p>Smart technology solution for efficient waste recycling and management using IoT-driven automation systems.</p>
+                    <div class="island-tags">
+                        <span>IoT</span>
+                        <span>Automation</span>
+                        <span>Sensors</span>
+                    </div>
+                    <div class="island-highlights">
+                        <div class="highlight"><i class="fa-solid fa-microchip"></i> IoT Sensors</div>
+                        <div class="highlight"><i class="fa-solid fa-gears"></i> Automation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 6: INDUSTRY EXPERIENCE              -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-6" class="chapter chapter-experience">
+        <div class="chapter-label reveal-up">CHAPTER VI</div>
+        <h2 class="chapter-title reveal-up">Industry Experience</h2>
+
+        <div class="checkpoint-card reveal-up">
+            <div class="checkpoint-flag">
+                <i class="fa-solid fa-flag-checkered"></i>
+            </div>
+            <div class="checkpoint-content">
+                <span class="checkpoint-badge">INTERNSHIP CHECKPOINT</span>
+                <h3>Gateway Software Solutions</h3>
+                <p class="checkpoint-role"><i class="fa-solid fa-robot"></i> Generative AI Intern</p>
+                <p class="checkpoint-desc">Worked on Generative AI technologies and gained practical exposure to software development workflows. Developed understanding of industry-standard tools, collaborative development, and real-world AI applications.</p>
+                <div class="checkpoint-skills">
+                    <span>Generative AI</span>
+                    <span>Software Development</span>
+                    <span>Industry Exposure</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 7: KNOWLEDGE ACHIEVEMENTS           -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-7" class="chapter chapter-achievements">
+        <div class="chapter-label reveal-up">CHAPTER VII</div>
+        <h2 class="chapter-title reveal-up">Knowledge &amp; Achievements</h2>
+
+        <div class="trophy-room">
+            <!-- Certifications -->
+            <div class="trophy-section">
+                <h3 class="trophy-heading reveal-up"><i class="fa-solid fa-certificate"></i> Certifications</h3>
+                <div class="trophy-grid">
+                    <div class="trophy-card reveal-up" style="transition-delay:0.1s">
+                        <div class="trophy-medal">
+                            <svg viewBox="0 0 100 120" width="80" height="96">
+                                <polygon points="35,100 50,88 65,100 50,120" fill="#f59e0b"/>
+                                <circle cx="50" cy="50" r="40" fill="none" stroke="#f59e0b" stroke-width="3"/>
+                                <circle cx="50" cy="50" r="34" fill="#1a1a2e"/>
+                                <text x="50" y="45" text-anchor="middle" fill="#f59e0b" font-size="22"><tspan>☁️</tspan></text>
+                                <text x="50" y="65" text-anchor="middle" fill="#f5f5f5" font-size="8" font-weight="600">CERTIFIED</text>
+                            </svg>
+                        </div>
+                        <h4>Cloud Computing</h4>
+                    </div>
+                    <div class="trophy-card reveal-up" style="transition-delay:0.2s">
+                        <div class="trophy-medal">
+                            <svg viewBox="0 0 100 120" width="80" height="96">
+                                <polygon points="35,100 50,88 65,100 50,120" fill="#06b6d4"/>
+                                <circle cx="50" cy="50" r="40" fill="none" stroke="#06b6d4" stroke-width="3"/>
+                                <circle cx="50" cy="50" r="34" fill="#1a1a2e"/>
+                                <text x="50" y="45" text-anchor="middle" fill="#06b6d4" font-size="22"><tspan>📡</tspan></text>
+                                <text x="50" y="65" text-anchor="middle" fill="#f5f5f5" font-size="8" font-weight="600">CERTIFIED</text>
+                            </svg>
+                        </div>
+                        <h4>Internet of Things</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="trophy-section">
+                <h3 class="trophy-heading reveal-up"><i class="fa-solid fa-trophy"></i> Achievements</h3>
+                <div class="achievement-list">
+                    <div class="achievement-item reveal-up" style="transition-delay:0.1s">
+                        <div class="achievement-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="achievement-info">
+                            <h4>Technical Paper Presentation</h4>
+                            <p>Presented technical paper at Hindustan Engineering College, showcasing research and public speaking skills.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item reveal-up" style="transition-delay:0.2s">
+                        <div class="achievement-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                        <div class="achievement-info">
+                            <h4>Workshop Participation</h4>
+                            <p>Participated in workshops conducted across various engineering colleges, expanding technical horizons.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stat counters -->
+            <div class="stat-counters reveal-up">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2">0</span>
+                    <span class="stat-label">Certifications</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2">0</span>
+                    <span class="stat-label">Projects Built</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="1">0</span>
+                    <span class="stat-label">Internship</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="5">0</span>
+                    <span class="stat-label">Workshops</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 8: CODING UNIVERSE                  -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-8" class="chapter chapter-universe">
+        <div class="chapter-label reveal-up">CHAPTER VIII</div>
+        <h2 class="chapter-title reveal-up">Coding Universe</h2>
+        <p class="chapter-subtitle reveal-up">My digital presence across the coding galaxy</p>
+
+        <div class="universe-container reveal-up">
+            <div class="orbit orbit-1">
+                <a href="https://leetcode.com/u/poovarasank123/" target="_blank" class="planet planet-leetcode" aria-label="LeetCode Profile">
+                    <div class="planet-glow"></div>
+                    <div class="planet-body">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <span class="planet-label">LeetCode</span>
+                </a>
+            </div>
+            <div class="orbit orbit-2">
+                <a href="https://github.com/POOVARASAN2412" target="_blank" class="planet planet-github" aria-label="GitHub Profile">
+                    <div class="planet-glow"></div>
+                    <div class="planet-body">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <span class="planet-label">GitHub</span>
+                </a>
+            </div>
+            <div class="orbit orbit-3">
+                <a href="https://www.linkedin.com/in/poovarasan-k-5b0419324/" target="_blank" class="planet planet-linkedin" aria-label="LinkedIn Profile">
+                    <div class="planet-glow"></div>
+                    <div class="planet-body">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <span class="planet-label">LinkedIn</span>
+                </a>
+            </div>
+            <div class="sun-core">
+                <span>PK</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 9: FUTURE GOALS                     -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-9" class="chapter chapter-future">
+        <div class="chapter-label reveal-up">CHAPTER IX</div>
+        <h2 class="chapter-title reveal-up">Future Goals</h2>
+        <p class="chapter-subtitle reveal-up">A vision for what lies ahead</p>
+
+        <div class="vision-board">
+            <div class="vision-card reveal-up" style="transition-delay:0.05s">
+                <div class="vision-number">01</div>
+                <div class="vision-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Becoming a Software Developer</h3>
+                <p>Building impactful, production-ready software that solves real-world problems.</p>
+            </div>
+            <div class="vision-card reveal-up" style="transition-delay:0.15s">
+                <div class="vision-number">02</div>
+                <div class="vision-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <h3>Mastering Full Stack Development</h3>
+                <p>Becoming proficient in both frontend and backend technologies for end-to-end solutions.</p>
+            </div>
+            <div class="vision-card reveal-up" style="transition-delay:0.25s">
+                <div class="vision-number">03</div>
+                <div class="vision-icon"><i class="fa-solid fa-rocket"></i></div>
+                <h3>Building Real-World Applications</h3>
+                <p>Creating applications that make a difference in people's daily lives.</p>
+            </div>
+            <div class="vision-card reveal-up" style="transition-delay:0.35s">
+                <div class="vision-number">04</div>
+                <div class="vision-icon"><i class="fa-solid fa-brain"></i></div>
+                <h3>Exploring Artificial Intelligence</h3>
+                <p>Diving deep into AI and machine learning to build intelligent systems of the future.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CHAPTER 10: CONNECT WITH ME                 -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section id="chapter-10" class="chapter chapter-contact">
+        <div class="chapter-label reveal-up">CHAPTER X</div>
+        <h2 class="chapter-title reveal-up">Connect With Me</h2>
+        <p class="chapter-subtitle reveal-up">The journey continues — let's build something together.</p>
+
+        <div class="contact-console reveal-up">
+            <div class="console-header">
+                <span class="console-dot red"></span>
+                <span class="console-dot yellow"></span>
+                <span class="console-dot green"></span>
+                <span class="console-title">poovarasan@terminal ~ contact</span>
+            </div>
+            <div class="console-body">
+                <p class="console-line"><span class="prompt">$</span> echo $EMAIL</p>
+                <a href="mailto:poovarasank919@gmail.com" class="console-output email-link">
+                    <i class="fa-solid fa-envelope"></i> poovarasank919@gmail.com
+                </a>
+                <p class="console-line"><span class="prompt">$</span> echo $SOCIALS</p>
+                <div class="console-socials">
+                    <a href="https://github.com/POOVARASAN2412" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/poovarasan-k-5b0419324/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                    <a href="https://leetcode.com/u/poovarasank123/" target="_blank"><i class="fa-solid fa-code"></i> LeetCode</a>
+                </div>
+                <p class="console-line"><span class="prompt">$</span> <span class="typing-cursor">_</span></p>
+            </div>
+        </div>
+
+        <footer class="journey-footer">
+            <p>&copy; 2026 Poovarasan K — Built with passion, code, and lots of coffee ☕</p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
